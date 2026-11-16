@@ -132,8 +132,67 @@ If you also want to feed the stream into **Frigate** or **go2rtc**:
                - detect
                - record
    ```
+## FAQ
+
+<details>
+<summary>Does this integration work with all Y108 cameras?</summary>
+
+The integration is designed for compatible Y108 cameras using the Ease Life cloud service. Compatibility may vary depending on the camera model and firmware version.
+
+</details>
+
+<details>
+<summary>Do I need an Ease Life account?</summary>
+
+Yes. An active Ease Life account is required to connect your camera.
+
+</details>
+
+<details>
+<summary>Can I view the camera live in Home Assistant?</summary>
+
+Yes. The integration supports MJPEG live streaming, providing a continuous video feed in Home Assistant.
+
+</details>
+
+<details>
+<summary>Can I control the camera's movement?</summary>
+
+Yes. Supported cameras can be controlled using the PTZ entities provided by the integration.
+
+</details>
+
+<details>
+<summary>Does it support two-way audio?</summary>
+
+The integration supports sending audio and TTS announcements to compatible cameras. Available audio features may depend on the camera model.
+
+</details>
+
+<details>
+<summary>Can I use it with Frigate or go2rtc?</summary>
+
+Yes. An optional HTTP-FLV stream proxy is available for use with Frigate and go2rtc.
+
+</details>
+
+<details>
+<summary>Does the integration work locally without cloud access?</summary>
+
+No. The current implementation communicates through the Ease Life cloud service, so an internet connection is required.
+
+</details>
+
+<details>
+<summary>Is this an official Home Assistant or Ease Life integration?</summary>
+
+No. This is an independent community project and is not affiliated with Home Assistant or Ease Life.
+
+</details>
+
 
 ---
+
 
 ## Author & Credits
 
