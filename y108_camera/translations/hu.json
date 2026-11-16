@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Y108 Smart Camera (Ease Life fiók)",
+        "data": {
+          "email": "E-mail cím",
+          "password": "Jelszó",
+          "device_id": "Eszköz UUID (opcionális)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Hibás e-mail cím vagy jelszó",
+      "cannot_connect": "Nem érhető el az Ease Life felhő"
+    },
+    "abort": {
+      "already_configured": "Ez a fiók már hozzá van adva"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Y108 Kamera beállítások",
+        "data": {
+          "stream_mode": "Élőkép mód",
+          "scan_interval": "Állapotfrissítés (másodperc)",
+          "enable_audio": "Hang engedélyezése az FLV streamben (G.711 -> AAC)",
+          "proxy_host": "FLV proxy IP cím",
+          "proxy_token": "FLV proxy token (opcionális)"
+        }
+      }
+    }
+  }
+}

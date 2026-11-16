@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Y108 Smart Camera (Ease Life account)",
+        "data": {
+          "email": "Email",
+          "password": "Password",
+          "device_id": "Device UUID (optional)"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password",
+      "cannot_connect": "Cannot reach Ease Life cloud"
+    },
+    "abort": {
+      "already_configured": "This account is already configured"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Y108 Camera options",
+        "data": {
+          "stream_mode": "Live stream mode",
+          "scan_interval": "Poll interval (seconds)",
+          "enable_audio": "Enable audio in FLV stream (G.711 -> AAC)",
+          "proxy_host": "FLV proxy bind address",
+          "proxy_token": "FLV proxy token (optional)"
+        }
+      }
+    }
+  }
+}

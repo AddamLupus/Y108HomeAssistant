@@ -1,0 +1,11 @@
+{
+  "domain": "y108_camera",
+  "name": "Y108 Smart Camera (Hangzhou Ku Shi / Ease Life)",
+  "version": "1.0.0",
+  "documentation": "https://github.com/asmsaifs/ease_life",
+  "dependencies": ["ffmpeg"],
+  "codeowners": ["@AddamLupus"],
+  "requirements": ["requests"],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
